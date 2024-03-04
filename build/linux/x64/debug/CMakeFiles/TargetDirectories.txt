@@ -1,0 +1,14 @@
+/home/me/Desktop/New Folder 1/chat2/build/linux/x64/debug/CMakeFiles/install/strip.dir
+/home/me/Desktop/New Folder 1/chat2/build/linux/x64/debug/CMakeFiles/install/local.dir
+/home/me/Desktop/New Folder 1/chat2/build/linux/x64/debug/CMakeFiles/install.dir
+/home/me/Desktop/New Folder 1/chat2/build/linux/x64/debug/CMakeFiles/list_install_components.dir
+/home/me/Desktop/New Folder 1/chat2/build/linux/x64/debug/CMakeFiles/rebuild_cache.dir
+/home/me/Desktop/New Folder 1/chat2/build/linux/x64/debug/CMakeFiles/edit_cache.dir
+/home/me/Desktop/New Folder 1/chat2/build/linux/x64/debug/CMakeFiles/chat2.dir
+/home/me/Desktop/New Folder 1/chat2/build/linux/x64/debug/flutter/CMakeFiles/install/strip.dir
+/home/me/Desktop/New Folder 1/chat2/build/linux/x64/debug/flutter/CMakeFiles/install/local.dir
+/home/me/Desktop/New Folder 1/chat2/build/linux/x64/debug/flutter/CMakeFiles/install.dir
+/home/me/Desktop/New Folder 1/chat2/build/linux/x64/debug/flutter/CMakeFiles/list_install_components.dir
+/home/me/Desktop/New Folder 1/chat2/build/linux/x64/debug/flutter/CMakeFiles/rebuild_cache.dir
+/home/me/Desktop/New Folder 1/chat2/build/linux/x64/debug/flutter/CMakeFiles/edit_cache.dir
+/home/me/Desktop/New Folder 1/chat2/build/linux/x64/debug/flutter/CMakeFiles/flutter_assemble.dir

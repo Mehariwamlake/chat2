@@ -1,0 +1,28 @@
+# ninja log v5
+0	73271	0	/home/me/Desktop/New Folder 1/chat2/linux/flutter/ephemeral/libflutter_linux_gtk.so	fd0786436ad48f55
+0	73271	0	/home/me/Desktop/New Folder 1/chat2/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h	fd0786436ad48f55
+0	73271	0	/home/me/Desktop/New Folder 1/chat2/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h	fd0786436ad48f55
+0	73271	0	/home/me/Desktop/New Folder 1/chat2/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h	fd0786436ad48f55
+0	73271	0	/home/me/Desktop/New Folder 1/chat2/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h	fd0786436ad48f55
+0	73271	0	/home/me/Desktop/New Folder 1/chat2/linux/flutter/ephemeral/flutter_linux/fl_engine.h	fd0786436ad48f55
+0	73271	0	/home/me/Desktop/New Folder 1/chat2/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h	fd0786436ad48f55
+0	73271	0	/home/me/Desktop/New Folder 1/chat2/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h	fd0786436ad48f55
+0	73271	0	/home/me/Desktop/New Folder 1/chat2/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h	fd0786436ad48f55
+0	73271	0	/home/me/Desktop/New Folder 1/chat2/linux/flutter/ephemeral/flutter_linux/fl_method_call.h	fd0786436ad48f55
+0	73271	0	/home/me/Desktop/New Folder 1/chat2/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h	fd0786436ad48f55
+0	73271	0	/home/me/Desktop/New Folder 1/chat2/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h	fd0786436ad48f55
+0	73271	0	/home/me/Desktop/New Folder 1/chat2/linux/flutter/ephemeral/flutter_linux/fl_method_response.h	fd0786436ad48f55
+0	73271	0	/home/me/Desktop/New Folder 1/chat2/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h	fd0786436ad48f55
+0	73271	0	/home/me/Desktop/New Folder 1/chat2/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h	fd0786436ad48f55
+0	73271	0	/home/me/Desktop/New Folder 1/chat2/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h	fd0786436ad48f55
+0	73271	0	/home/me/Desktop/New Folder 1/chat2/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h	fd0786436ad48f55
+0	73271	0	/home/me/Desktop/New Folder 1/chat2/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h	fd0786436ad48f55
+0	73271	0	/home/me/Desktop/New Folder 1/chat2/linux/flutter/ephemeral/flutter_linux/fl_value.h	fd0786436ad48f55
+0	73271	0	/home/me/Desktop/New Folder 1/chat2/linux/flutter/ephemeral/flutter_linux/fl_view.h	fd0786436ad48f55
+0	73271	0	/home/me/Desktop/New Folder 1/chat2/linux/flutter/ephemeral/flutter_linux/flutter_linux.h	fd0786436ad48f55
+0	73271	0	flutter/_phony_	fd0786436ad48f55
+73275	76282	1709051809365212965	CMakeFiles/chat2.dir/flutter/generated_plugin_registrant.cc.o	25d152ca5ccb9021
+73272	76446	1709051809557212260	CMakeFiles/chat2.dir/main.cc.o	55a7e17336c1f637
+73275	76591	1709051809701211731	CMakeFiles/chat2.dir/my_application.cc.o	95f5068dbfdcaf4d
+76591	77512	1709051810609208414	intermediates_do_not_run/chat2	96ce137b7c2fcec9
+77512	78107	0	CMakeFiles/install.util	e971e57caeffec57
