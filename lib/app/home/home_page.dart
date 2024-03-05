@@ -1,13 +1,8 @@
 import 'package:chat2/global/custom_tab_bar/custom_tab_bar.dart';
-import 'package:chat2/user/domain/entities/user_entity.dart';
-import 'package:chat2/user/presentation/cubit/auth/auth_cubit.dart';
-import 'package:chat2/user/presentation/cubit/single_user/single_user_cubit.dart';
 import 'package:chat2/user/presentation/cubit/user/user_cubit.dart';
-import 'package:chat2/user/presentation/pages/all_users/all_users_page.dart';
-import 'package:chat2/user/presentation/pages/profile/profile_page.dart';
+import 'package:chat2/user/presentation/pages/credential/login_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-
 
 class HomePage extends StatefulWidget {
   final String uid;
@@ -21,19 +16,16 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   int _tabIndex = 0;
 
-  List<Widget> get pages => [AllUsersPage(),ProfilePage()];
+  List<Widget> get pages => [
+        LoginPage(uid: widget.uid),
+      ];
 
   PageController _pageController = PageController();
 
-
   @override
   void initState() {
-    BlocProvider.of<SingleUserCubit>(context).getSingleUserProfile(user: UserEntity(uid: widget.uid));
-    BlocProvider.of<UserCubit>(context).getUsers(user: UserEntity(uid: widget.uid));
-    
     super.initState();
   }
-
 
   @override
   void dispose() {
@@ -58,7 +50,7 @@ class _HomePageState extends State<HomePage> {
               return [
                 PopupMenuItem(
                   onTap: () {
-                    BlocProvider.of<AuthCubit>(context).loggedOut();
+                    BlocProvider.of<UserCubit>(context).loggedOut();
                   },
                   child: Text(
                     "Logout",
@@ -86,7 +78,7 @@ class _HomePageState extends State<HomePage> {
           Expanded(
             child: PageView.builder(
               controller: _pageController,
-              onPageChanged: (index){
+              onPageChanged: (index) {
                 setState(() {
                   _tabIndex = index;
                 });
